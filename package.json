@@ -12,6 +12,11 @@
 	"activationEvents": [
 		"onCommand:extension.foldername"
 	],
+	"author": {
+		"name": "Lee",
+		"email": "leevashan.reddi@aax.co.za"
+	  },
+	  "publisher": "Lee",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
