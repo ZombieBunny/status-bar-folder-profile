@@ -21,6 +21,7 @@ function transformFolderName(folderName: string): string {
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
   console.log('activate just called');
+
   const statusBarItem = vscode.window.createStatusBarItem(
     vscode.StatusBarAlignment.Left,
     100000000
@@ -44,12 +45,15 @@ export function activate(context: vscode.ExtensionContext) {
     }
   }
 
+  runStatusBarFunction();
+
   let disposable = vscode.commands.registerCommand(
     "extension.foldername",
     runStatusBarFunction
   );
   context.subscriptions.push(statusBarItem);
   context.subscriptions.push(disposable);
+
 }
 
 // this method is called when your extension is deactivated
