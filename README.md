@@ -1,4 +1,4 @@
-# Status Bar Label - Display the current follder name on the status bar.
+# Status Bar Label - Display the current folder name on the status bar.
 
 This extention was created out of the need to display the current root folder name in a consistent place when you use VSCODE in full screen on MacOS with the explorer minimized. The folder name will omly display is the folder includes a 'package.json' file.
 
