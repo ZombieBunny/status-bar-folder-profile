@@ -1,16 +1,18 @@
 {
-	"name": "foldername",
-	"displayName": "folder-name",
-	"description": "display folder name in status bar",
+	"name": "statusbarlabel",
+	"displayName": "status-bar-directory-name",
+	"description": "Display root directory name in status bar if the directory contains a package.json file.",
 	"version": "0.0.1",
+	"icon": "images/root-folder-name.png",
 	"engines": {
 		"vscode": "^1.42.0"
 	},
+	"repository": "https://github.com/ZombieBunny/status-bar-folder-profile",
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.foldername",
+		"onCommand:extension.directoryname",
 		"workspaceContains:package.json"
 	],
 	"author": {
@@ -22,8 +24,8 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.foldername",
-				"title": "Folder Name Displayer"
+				"command": "extension.directoryname",
+				"title": "Display directory on status bar"
 			}
 		]
 	},

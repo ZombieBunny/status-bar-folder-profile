@@ -48,7 +48,7 @@ export function activate(context: vscode.ExtensionContext) {
   runStatusBarFunction();
 
   let disposable = vscode.commands.registerCommand(
-    "extension.foldername",
+    "extension.directoryname",
     runStatusBarFunction
   );
   context.subscriptions.push(statusBarItem);
