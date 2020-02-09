@@ -10,7 +10,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.foldername"
+		"*"
 	],
 	"author": {
 		"name": "Lee",
