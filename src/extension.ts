@@ -2,6 +2,13 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from "vscode";
 
+
+/**
+ * Created a string with the first letter of each word in upper case.
+ *
+ * @param folderName A string representing the current folder of the project.
+ * @return A new 'capatalized' string
+ */
 function transformFolderName(folderName: string): string {
   return folderName
     .toLowerCase()
