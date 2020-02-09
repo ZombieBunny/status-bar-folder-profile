@@ -20,12 +20,15 @@ function transformFolderName(folderName: string): string {
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
+  console.log('activate just called');
   const statusBarItem = vscode.window.createStatusBarItem(
     vscode.StatusBarAlignment.Left,
     100000000
   );
 
   function runStatusBarFunction() {
+
+    console.log('creating status bar item');
     // TODO: fetch command from settings
     if (vscode.workspace.name) {
       statusBarItem.text = transformFolderName(vscode.workspace.name);

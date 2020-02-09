@@ -10,7 +10,9 @@
 		"Other"
 	],
 	"activationEvents": [
-		"*"
+		"workspaceContains:**/package.json",
+		"workspaceContains:package.json",
+		"onCommand:extension.foldername"
 	],
 	"author": {
 		"name": "Lee",
