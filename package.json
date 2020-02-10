@@ -1,7 +1,7 @@
 {
 	"name": "statusbarlabel",
-	"displayName": "status-bar-directory-name",
-	"description": "Display root directory name in status bar if the directory contains a package.json file.",
+	"displayName": "${rootDirectoryName} - Status bar label",
+	"description": "Display the current root directory name in the status bar, only if the directory contains a package.json file.",
 	"version": "0.0.1",
 	"icon": "images/rootfoldername.png",
 	"engines": {
