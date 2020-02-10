@@ -3,21 +3,21 @@
 	"displayName": "status-bar-directory-name",
 	"description": "Display root directory name in status bar if the directory contains a package.json file.",
 	"version": "0.0.1",
-	"icon": "images/root-folder-name.png",
+	"icon": "images/rootfoldername.png",
 	"engines": {
 		"vscode": "^1.42.0"
 	},
 	"repository": "https://github.com/ZombieBunny/status-bar-folder-profile",
 	"categories": [
-		"Other"
+		"Productivity"
 	],
 	"activationEvents": [
 		"onCommand:extension.directoryname",
 		"workspaceContains:package.json"
 	],
 	"author": {
-		"name": "Lee",
-		"email": "leevashan.reddi@aax.co.za"
+		"name": "Leevashan Reddi",
+		"email": "zombiebunny01@gmail.com"
 	  },
 	  "publisher": "Lee",
 	"main": "./out/extension.js",
