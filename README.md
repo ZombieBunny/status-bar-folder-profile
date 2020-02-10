@@ -1,4 +1,4 @@
-# Display the current root directory name in the status bar, only if the directory contains a package.json file.
+# Display the current root directory name in the status bar.
 
 This extention was birthed out of the need to be more productive, while being faced with a very niche use case for needing to know the current directory name while having the editor opened in full screen mode with the explorer minimized, on MacOS. The directory name will display automatically if the directory includes a 'package.json' file, but can be triggered with the following command:
 
