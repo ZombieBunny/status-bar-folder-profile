@@ -1,10 +1,12 @@
-# Status Bar Label - Display the current directory name on the status bar.
+# Display the current root directory name in the status bar, only if the directory contains a package.json file.
 
-This extention was created out of the need to display the current root directory name in a consistent place when you use VSCODE in full screen on MacOS with the explorer minimized. The directory name will omly display if the directory includes a 'package.json' file.
+This extention was birthed out of the need to be more productive, while being faced with a very niche use case for needing to know the current directory name while having the editor opened in full screen mode with the explorer minimized, on MacOS. The directory name will display automatically if the directory includes a 'package.json' file, but can be triggered with the following command:
+
+* Press `Shift+CMD+p` (macOS) to open command pallet and enter `Display directory on status bar`
 
 ## Features
 
-The extention extracts the current directory path, splits the directory name at every '-' interval, it then capitalizes the first leter of every word and joins back with '-'.
+The extention extracts the current directory path and capitalizes the first letter of each word thats been seperated by a `-` (dash) and displays this at the first position on the left of the status bar.
 
 ## Release Notes
 
