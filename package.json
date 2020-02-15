@@ -2,7 +2,7 @@
 	"name": "statusbarlabel",
 	"displayName": "${rootDirectoryName} - Status bar label",
 	"description": "Display the current root directory name in the status bar.",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"icon": "images/rootfoldername.png",
 	"engines": {
 		"vscode": "^1.42.0"
@@ -18,8 +18,8 @@
 	"author": {
 		"name": "Leevashan Reddi",
 		"email": "zombiebunny01@gmail.com"
-	  },
-	  "publisher": "Lee",
+	},
+	"publisher": "Lee",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
