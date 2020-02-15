@@ -12,12 +12,9 @@ The extention extracts the current directory path and capitalizes the first lett
 
 Just displays the current root directory name at the first position on the left of the status bar. The directory name will display if the directory includes a package.json file.
 
-### 0.0.1
+### 1.0.0
 
 Initial release.
 
 
-
-
-
-**Enjoy!**
+If you want to improve this document or have a feature you want to add, please submit a PR to the [git repo](https://github.com/ZombieBunny/status-bar-folder-profile).
