@@ -9,7 +9,8 @@
 	},
 	"repository": "https://github.com/ZombieBunny/status-bar-folder-profile",
 	"categories": [
-		"Productivity"
+		"Snippets",
+		"Other"
 	],
 	"activationEvents": [
 		"onCommand:extension.directoryname",
@@ -19,7 +20,7 @@
 		"name": "Leevashan Reddi",
 		"email": "zombiebunny01@gmail.com"
 	},
-	"publisher": "Lee",
+	"publisher": "leevashan",
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
